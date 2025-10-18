@@ -4,7 +4,7 @@ version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 homepage: https://github.com/DevPatel1479/flutter_ci_cli
 repository: https://github.com/DevPatel1479/flutter_ci_cli
-publish_to: https://pub.dev
+
 
 environment:
   sdk: ">=2.18.0 <4.0.0"
