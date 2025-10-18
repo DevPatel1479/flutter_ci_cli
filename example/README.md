@@ -51,13 +51,13 @@ dart pub global activate flutter_ci_cli
 
 Assume your Flutter project is located at my_flutter_project.
 
-1️⃣ Run the CLI interactively
+## 1️⃣ Run the CLI interactively
 
 cd my_flutter_project
 flutter_ci_cli --repo https://github.com/username/my_flutter_project
 
 
-Interactive prompts & example user inputs:
+## Interactive prompts & example user inputs:
 
 🚀 Flutter CI/CD Auto-Setup CLI
 ✅ Flutter project detected. Enable CI/CD? (Y/n): y
@@ -76,7 +76,7 @@ Do you want to commit the workflow automatically to GitHub? (y/N): n
 
 
 
-2️⃣ Run CLI non-interactively (using flags)
+## 2️⃣ Run CLI non-interactively (using flags)
 
 flutter_ci_cli \
   --repo https://github.com/username/my_flutter_project \
@@ -97,7 +97,7 @@ Skip Flutter tests
 
 Auto-commit workflow to GitHub (requires a Personal Access Token)
 
-3️⃣ Result
+## 3️⃣ Result
 
 After running, your project will have a ready-to-use GitHub Actions workflow:
 
@@ -109,17 +109,17 @@ my_flutter_project/
 Push your Flutter project to GitHub, and the workflow will automatically trigger CI/CD runs on the specified branch.
 
 
-⚡ CLI Options
+## ⚡ CLI Options
 
 -v, --version               Show CLI version
 -h, --help                  Show this help
 -r, --repo                  GitHub repository URL
 -b, --branch                Branch to run CI/CD on (defaults to "main")
-    --[no-]android-sign     Enable Android signing
-    --[no-]ios-sign         Enable iOS signing
-    --[no-]analyze          Include Flutter analyze step (defaults to on)
-    --[no-]test             Include Flutter test step (defaults to on)
-    --[no-]build-android    Include Android build (defaults to on)
-    --[no-]build-ios        Include iOS build
-    --[no-]auto-commit      Commit workflow automatically to GitHub
+--[no-]android-sign     Enable Android signing
+--[no-]ios-sign         Enable iOS signing
+--[no-]analyze          Include Flutter analyze step (defaults to on)
+--[no-]test             Include Flutter test step (defaults to on)
+--[no-]build-android    Include Android build (defaults to on)
+--[no-]build-ios        Include iOS build
+--[no-]auto-commit      Commit workflow automatically to GitHub
 
