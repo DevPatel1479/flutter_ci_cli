@@ -2,18 +2,20 @@ name: flutter_ci_cli
 description: A CLI tool to automatically setup CI/CD for Flutter projects.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
-
+homepage: https://github.com/DevPatel1479/flutter_ci_cli
+repository: https://github.com/DevPatel1479/flutter_ci_cli
+publish_to: https://pub.dev
+publisher: Dev Patel
 environment:
   sdk: ">=2.18.0 <4.0.0"
 
 # Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
-  args:       # For CLI arguments
-  http:       # For GitHub API requests
-  yaml:       # For YAML generation
-  path:       # File path handling
-  dotenv: 
+  args: ^2.7.0
+  http: ^1.5.0
+  yaml: ^3.1.3
+  path: ^1.9.1
+  dotenv: ^4.2.0
 
 dev_dependencies:
   lints: ^5.0.0
