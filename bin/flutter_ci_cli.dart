@@ -4,7 +4,7 @@ import 'package:path/path.dart' as p;
 
 import 'package:flutter_ci_cli/workflow_generator.dart';
 
-const cliVersion = '1.0.1';
+const cliVersion = '1.0.2';
 
 void main(List<String> arguments) async {
   final parser = ArgParser()
