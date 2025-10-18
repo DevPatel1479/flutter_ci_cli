@@ -1,6 +1,6 @@
 name: flutter_ci_cli
 description: A CLI tool to automatically setup CI/CD for Flutter projects.
-version: 1.0.0
+version: 1.0.1
 # repository: https://github.com/my_org/my_repo
 homepage: https://github.com/DevPatel1479/flutter_ci_cli
 repository: https://github.com/DevPatel1479/flutter_ci_cli
